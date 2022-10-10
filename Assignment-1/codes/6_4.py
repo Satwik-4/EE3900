@@ -44,4 +44,5 @@ plt.ylabel('$y(n)$')
 plt.grid()# minor
 #
 
-plt.show()
+
+plt.savefig('Assignment-1/figures/Figure_7.png')
