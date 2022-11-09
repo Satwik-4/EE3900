@@ -1,14 +1,13 @@
-Circuit at Q
+Output After Switching
+R1 X 0 1
+C1 X 0 1u ic=1.33
+R2 X 3 2
+V2 3 0 dc 2V
+.tran 100n 10u uic
 
-R1 out 0 1
-C1 out 0 1u ic=1.33u
-R2 out 2 2
-V2 2 0 dc 2V
-
-.control 
-tran 0.1u 10u uic
-plot out 0 2
-hardcopy 3_5.ps out 0 2
+.control
+run
+wrdata v2.txt v(X)
 .endc
 
 .end
