@@ -33,7 +33,7 @@ This repository includes assignments and code related to the coursework. You can
 
 ## GitHub Repository
 
-The GitHub repository for this coursework can be found at [link to your repository](https://github.com/Satwik-4/EE3900).
+The GitHub repository for this coursework can be found at [EE3900](https://github.com/Satwik-4/EE3900).
 
 ## Contributing
 
